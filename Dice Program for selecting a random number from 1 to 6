@@ -1,0 +1,14 @@
+var dice=function (){
+ return Math.ceil(Math.random()*6);  
+ }
+ var dice1 = dice();
+ var dice2 = dice();
+ console.log(dice1);
+ console.log(dice2);
+ if (dice1>dice2){
+   console.log("dice1 is great");
+ } else if (dice2>dice1){
+   console.log("dice2 is great");
+ } else{
+   console.log("they are same");
+ }
